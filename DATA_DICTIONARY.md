@@ -125,8 +125,10 @@ It is intended to help another analyst or developer understand the meaning, expe
 | `Recommended_Action` | Proposed improvement or corrective action. |
 | `Priority` | Relative implementation priority. |
 | `Effort` | Estimated implementation effort. |
-| `Business_Impact` | Expected effect on user experience, conversion, or site performance. |
-| `Notes` | Additional implementation or review notes. |
+|| `Expected_Business_Impact` | Expected effect of the recommendation on business, conversion, or user-experience goals. |
+| `Category` | Recommendation category, such as UX, Accessibility, Links, SEO, CTA, Freshness, or Navigation. |
+| `Evidence_or_Reason` | Audit evidence or reason supporting the recommendation. |
+| `Status` | Current status of the recommendation, such as Open or Completed. |
 
 ## 10. Python Page Audit Export
 
@@ -266,6 +268,9 @@ It is intended to help another analyst or developer understand the meaning, expe
 | `Mailing_List_Conversion_Rate` | Successful mailing-list submissions divided by mailing-list starts or eligible page sessions. |
 | `Contact_Intent_Rate` | Contact clicks divided by page sessions. |
 | `Program_to_Action_Rate` | Any defined conversion action divided by program-page sessions. |
+| `Total_Pages` | Total number of reviewed pages in the Page Inventory. |
+| `Total_CTAs` | Total number of identified CTA records in the CTA Inventory. |
+| `CTA_Issue` | Power BI page-level classification showing whether a page has a Missing Primary CTA, Competing CTA, or Clear CTA status based on the audit evidence. |
 
 ## 15. Data Handling Notes
 
