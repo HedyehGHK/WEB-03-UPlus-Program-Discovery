@@ -48,4 +48,4 @@ Production build Lighthouse results:
 
 ### External Destination Review
 
-External registration and application destinations should be manually confirmed before final submission.
+External registration, application, RSVP, and volunteer CTA destinations were manually reviewed against the current public U+ pages. Known unresolved or incorrect destinations remain documented in the Link QA audit.
